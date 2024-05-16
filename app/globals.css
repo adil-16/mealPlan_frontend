@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.my-menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.my-menu .ant-menu-item {
+  color: #a1a0bd !important;
+}
+
+.my-menu .ant-menu-item-selected {
+  background-color: #e4e3ff !important;
+  color: #4c49ed !important;
+}
+
+.my-menu {
+  font-size: "17px" !important;
+  font-weight: 800 !important;
+  line-height: "21.34px" !important;
+}
+
+.ant-pagination-item a {
+  color: #505470 !important;
+  border: none !important;
+  border: 1px solid #eff0f4 !important;
+  border-radius: 3px !important;
+}
+
+.ant-pagination-item-active {
+  border: none !important;
+}
+
+.ant-pagination-item-link {
+  border: 1px solid #eff0f4 !important;
+  border-radius: 3px !important;
+}
+
+.my-menu .menu-divider {
+  background-color: transparent !important;
+  cursor: default !important;
+  font-weight: 800 !important;
+}
+
+.logout:hover {
+  background: none !important;
+}
+
+.logout {
+  color: #cccbd8 !important;
+}
+
+.pid {
+  color: #999999 !important;
+}
+
+.ant-pagination-item-active a {
+  background-color: #4c49ed !important;
+  color: white !important;
+  border-radius: 3px !important;
+}
+
+.spacer:hover {
+  background-color: transparent !important;
+  cursor: default !important;
+}
+
+.ant-table-column-sort {
+  background: white !important;
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color: rgba(76, 73, 237, 0.1) !important;
+  color: black !important;
+  font-weight: bolder;
+}
+
+.pidColumn {
+  color: #999999 !important;
+}
+
+.ant-layout-sider-children {
+  width: "800px" !important;
+}
+
+.react-datepicker__header {
+  background-color: white !important;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.react-datepicker__current-month {
+  color: #828282 !important;
+  margin: 0;
+}
+
+.react-datepicker__month {
+  padding: 15px;
+}
+
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+  fill: black !important;
+}
+
+.react-datepicker__day-name {
+  font-size: 11px;
+}
+
+.react-datepicker__day {
+  font-size: 13.9px;
+}
+
+.react-datepicker__month-container .react-datepicker__day--selected {
+  background-color: #4c49ed !important;
+  border-radius: 50% !important;
+  color: white !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: #f0f0f0 !important;
+}
+
+.custom-calendar {
+  border: none !important;
+  padding: 5px;
+  padding-right: 0;
+  padding-top: 2px;
+}
+
+.month-dropdown {
+  border: none !important;
+}
+
+.login-input {
+  border: none;
+}
+
+.ant-table-selection-column .ant-checkbox-inner {
+  outline: none !important;
+}
+
+.ant-table-selection-column .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #4c49ed !important;
+}
