@@ -23,7 +23,7 @@ const apiService = {
     if (method !== "GET" && data) {
       options.body = JSON.stringify(data);
     }
-
+//try block
     try {
       const response = await fetch(`${BASE_URL}${url}`, options);
 
